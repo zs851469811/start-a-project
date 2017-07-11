@@ -1,0 +1,24 @@
+.wrap {
+
+  width: 100%;
+    height: 520px;
+  overflow: hidden;
+}
+.wrap .item {
+margin-left: inherit;
+  position: relative;
+  float: left;
+  width: 31.9%;
+  height: auto;
+  line-height: 150px;
+  text-align: center;
+  border: 3px solid #ccc;
+    background: yellow;
+    border-radius:25px;
+}
+
+
+.wrap .item:hover {
+  z-index: 1;
+  border-color: #f00;
+}
